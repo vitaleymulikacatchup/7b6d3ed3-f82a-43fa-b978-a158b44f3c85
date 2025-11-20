@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -19,12 +19,12 @@ export default function F1TeamsPage() {
       defaultButtonVariant="text-stagger"
       defaultTextAnimation="entrance-slide"
       borderRadius="rounded"
-      contentWidth="default"
-      sizing="default"
-      background="default"
-      cardStyle="default"
-      primaryButtonStyle="default"
-      secondaryButtonStyle="default"
+      contentWidth="medium"
+      sizing="medium"
+      background="circleGradient"
+      cardStyle="glass-elevated"
+      primaryButtonStyle="gradient"
+      secondaryButtonStyle="glass"
       showBlurBottom={false}
     >
       <div id="nav" data-section="nav">
@@ -79,28 +79,28 @@ export default function F1TeamsPage() {
           animationType="slide-up"
           features={[
             {
-              id: "1",
+              id: 1,
               title: "Advanced Aerodynamics",
               description: "Complex front and rear wing designs generate up to 1,500kg of downforce at 300km/h, allowing cars to corner at incredible speeds while maintaining stability and grip",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763649924610-mltgy5v0.jpg",
               imageAlt: "F1 car aerodynamic components"
             },
             {
-              id: "2",
+              id: 2,
               title: "Hybrid Power Unit",
               description: "1.6L V6 turbo hybrid engines combined with ERS energy recovery systems deliver over 1,000 horsepower while achieving remarkable fuel efficiency under strict regulations",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763649925759-l7zo3kn8.jpg",
               imageAlt: "F1 hybrid power unit engine"
             },
             {
-              id: "3",
+              id: 3,
               title: "Safety Innovation",
               description: "State-of-the-art safety features including the halo cockpit protection, carbon fiber survival cells, and HANS devices protect drivers at speeds exceeding 350km/h",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763649927044-6uthsdfy.jpg",
               imageAlt: "F1 safety halo protection system"
             },
             {
-              id: "4",
+              id: 4,
               title: "Tire Technology",
               description: "Sophisticated tire compounds designed for different weather and track conditions, with advanced thermal management systems to optimize grip and performance throughout races",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763649927933-m5gyqdyb.jpg",
